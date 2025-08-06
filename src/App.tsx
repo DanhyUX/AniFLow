@@ -1,6 +1,7 @@
 import './App.css'
 import HeroIMG from './assets/hero-img.jpg'
 import Logo from './assets/logo.svg'
+import Attack from './assets/attack.jpg'
 
 function App() {
   return (
@@ -65,7 +66,7 @@ function App() {
 <div className='mx-6 flex gap-10 flex-wrap'>
 
 <div className='bg-gray-700 lg:w-[40%] h-[380px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/attack.jpg" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -452,7 +453,7 @@ function App() {
 <div className='mx-6 flex gap-8.5 flex-wrap'>
 
 <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/attack.jpg" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
