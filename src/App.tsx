@@ -1,4 +1,3 @@
-import './App.css'
 import {BrowserRouter, Route, Routes} from 'react-router'
 import Home from './Pages/home'
 import OnepiecePage from './Pages/onepiece'

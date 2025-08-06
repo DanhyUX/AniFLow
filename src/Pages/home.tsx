@@ -1,4 +1,3 @@
-import '../App.css'
 import HeroIMG from '../assets/hero-img.jpg'
 import Logo from '../assets/logo.svg'
 import Attack from '../assets/attack.jpg'
