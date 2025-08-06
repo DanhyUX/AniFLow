@@ -10,6 +10,7 @@ import WaterMagic from './assets/water.avif'
 import Play from './assets/Play.png'
 import Plus from './assets/PLus.png'
 import Info from './assets/Info.png'
+import PlayBlack from './assets/playblack.png'
 
 function App() {
   return (
@@ -73,7 +74,10 @@ function App() {
   </div>
 <div className='mx-6 flex gap-10 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[40%] h-[380px] rounded-2xl cursor-pointer'>
+<div className='bg-gray-700 lg:w-[40%] h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
 <img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -91,7 +95,10 @@ function App() {
     </div>
   </div>  
   
-  <div className='bg-gray-700 lg:w-[30%]  h-[380px] rounded-2xl cursor-pointer'>
+  <div className='bg-gray-700 lg:w-[30%]  h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
   <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -109,7 +116,10 @@ function App() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[25%]   h-[380px] rounded-2xl cursor-pointer'>
+  <div className='bg-gray-700 lg:w-[25%]   h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
   <img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -127,7 +137,10 @@ function App() {
     </div>
   </div>  
 
-  <div className=' bg-gray-700 lg:w-[25%]  h-[380px] rounded-2xl cursor-pointer'>
+  <div className=' bg-gray-700 lg:w-[25%]  h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
   <img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -145,7 +158,10 @@ function App() {
     </div>
   </div> 
 
-  <div className=' bg-gray-700 lg:w-[40%]   h-[380px] rounded-2xl cursor-pointer'>
+  <div className=' bg-gray-700 lg:w-[40%]   h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
   <img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -163,7 +179,10 @@ function App() {
     </div>
   </div>  
 
-  <div className=' bg-gray-700 lg:w-[30%]   h-[380px] rounded-2xl'>
+  <div className=' bg-gray-700 lg:w-[30%]   h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
   <img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -202,7 +221,10 @@ function App() {
     <p className='text-xl font-bold'>Sunday</p>
     <p className='text-gray-400'>August 3rd</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={OnePiece} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -216,7 +238,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={Attack} alt="anime-photo" className='mb-2' />
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -238,7 +263,10 @@ function App() {
     <p className='text-xl font-bold'>Monday</p>
     <p className='text-gray-400'>August 4th</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={Solo} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -252,7 +280,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 scursor-pointer' >
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 scursor-pointer relative' >
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={DBZ} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -275,7 +306,10 @@ function App() {
     <p className='text-xl font-bold'>Tuesday</p>
     <p className='text-gray-400'>August 5th</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={WaterMagic} alt="anime-photo" className='mb-2' />
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -289,7 +323,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={ToBeHero}alt="anime-photo" className='mb-2' />
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -311,7 +348,10 @@ function App() {
     <p className='text-xl font-bold'>Wednesday</p>
     <p className='text-gray-400'>August 6th</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={Attack} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -325,7 +365,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={DBZ} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -347,7 +390,10 @@ function App() {
     <p className='text-xl font-bold'>Thursday</p>
     <p className='text-gray-400'>August 7th</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={OnePiece} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -361,7 +407,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={Attack} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -383,7 +432,10 @@ function App() {
     <p className='text-xl font-bold'>Friday</p>
     <p className='text-gray-400'>August 8th</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={Solo} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -397,7 +449,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={ToBeHero} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -419,7 +474,10 @@ function App() {
     <p className='text-xl font-bold'>Saturday</p>
     <p className='text-gray-400'>August 9th</p>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={WaterMagic} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -433,7 +491,10 @@ function App() {
     </div>
     </div>
   </div>
-  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
+  <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
     <img src={ToBeHero} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
@@ -463,7 +524,11 @@ function App() {
   </div>
 <div className='mx-6 flex gap-8.5 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
+<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative '>
+<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
+  
 <img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -481,7 +546,10 @@ function App() {
     </div>
   </div>  
   
-<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
+<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
 <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -499,7 +567,10 @@ function App() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
 <img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -517,7 +588,10 @@ function App() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
 <img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -535,7 +609,10 @@ function App() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
 <img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -553,7 +630,10 @@ function App() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  </div>
 <img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
