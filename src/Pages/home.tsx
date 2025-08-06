@@ -21,7 +21,7 @@ const animeCards = [
     tags: ["Action", "Survival", "Drama"],
     image: Attack,
     link: "attack",
-    size: "45"
+    size: "45%"
   },
   {
     title: "One Piece",
@@ -32,7 +32,7 @@ const animeCards = [
     tags: ["Action", "Adventure", "Shonen"],
     image: OnePiece,
     link: "onepiece",
-    size: "30"
+    size: "30%"
   },
   {
     title: "Solo Leveling",
@@ -43,7 +43,7 @@ const animeCards = [
     tags: ["Action", "Adventure", "Shonen"],
     image: Solo,
     link: "",
-    size: "25"
+    size: "25%"
   },
   {
     title: "To Be Hero X",
@@ -54,7 +54,7 @@ const animeCards = [
     tags: ["Action", "Heroes", "Drama"],
     image: ToBeHero,
     link: "",
-    size: "25"
+    size: "25%"
   },
   {
     title: "The Water Magician",
@@ -65,7 +65,7 @@ const animeCards = [
     tags: ["Action", "Magic", "Adventure"],
     image: WaterMagic,
     link: "",
-    size: "45"
+    size: "45%"
   },
   {
     title: "Dragon Ball",
@@ -76,7 +76,7 @@ const animeCards = [
     tags: ["Action", "Fighting", "Adventure"],
     image: DBZ,
     link: "",
-    size: "30"
+    size: "30%"
   }
 ];
 
@@ -142,7 +142,7 @@ function Home() {
   </div>
   <div className='mx-6 flex gap-12 flex-wrap justify-between'>
     {animeCards.map(({description, image, link, rating, seasons, tags, title, year, size}) => (
-      <div className={`bg-gray-700 lg:w-[${size}%] h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden flex flex-col justify-end pb-5`}>
+      <div className={`bg-gray-700 lg:w-[${size}] h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden flex flex-col justify-end pb-5`}>
       <a href={link}> 
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
           <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
