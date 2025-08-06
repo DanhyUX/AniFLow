@@ -48,13 +48,13 @@ function Home() {
     <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Supernatural</p>
     <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Shonen</p>
   </div>
-  <p className='w-[55%]'>A young boy becomes a demon slayer to avenge his family and cure his demon sister. Follow Tanjiro's journey through breathtaking battles and emotional storytelling in this critically acclaimed series.</p>
+  <p className='w-[55%] text-2xl'>A young boy becomes a demon slayer to avenge his family and cure his demon sister. Follow Tanjiro's journey through breathtaking battles and emotional storytelling in this critically acclaimed series.</p>
 <div className='mt-4 gap-2 lg:flex  text-[18px] font-bold '>
  <a href="kimetsu"> <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src={Play} alt="play" />Play</button></a>
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Plus} alt="Plus" />My List</button>
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Info} alt="Info" />More Info</button>
 </div>
-<div className=" flex h-20 gap-3 absolute lg:left-[55%] lg:top-[150%]">
+<div className=" flex h-20 gap-3 absolute lg:left-[45%] lg:top-[150%]">
   <p className='text-red-700'>●</p>
   <p>●</p>
   <p>●</p>
