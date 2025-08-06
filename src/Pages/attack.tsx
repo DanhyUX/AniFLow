@@ -201,9 +201,9 @@ function AttackOnTitans() {
   </div>  
   
 <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
-<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+<a href="kimetsu"><div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
+  </div></a>
 <img src={HeroIMG} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Kimetsu No Yaiba</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
