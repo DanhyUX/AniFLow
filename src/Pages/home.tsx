@@ -50,7 +50,7 @@ function Home() {
   </div>
   <p className='w-[55%]'>A young boy becomes a demon slayer to avenge his family and cure his demon sister. Follow Tanjiro's journey through breathtaking battles and emotional storytelling in this critically acclaimed series.</p>
 <div className='mt-4 gap-2 lg:flex  text-[18px] font-bold '>
-  <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src={Play} alt="play" />Play</button>
+ <a href="kimetsu"> <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src={Play} alt="play" />Play</button></a>
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Plus} alt="Plus" />My List</button>
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Info} alt="Info" />More Info</button>
 </div>
@@ -526,7 +526,7 @@ function Home() {
 
 <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative '>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+   <a href="attack"> <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
   
 <img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
@@ -548,7 +548,7 @@ function Home() {
   
 <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  <a href="onepiece">  <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
 <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
