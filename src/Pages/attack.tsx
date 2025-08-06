@@ -1,4 +1,4 @@
-import OnePiece from '../assets/onepiece.jpg'
+import OnePiece from '../assets/attack.jpg'
 import Play from '../assets/Play.png'
 import Plus from '../assets/PLus.png'
 import Share from '../assets/share.png'
@@ -13,7 +13,7 @@ import HeroIMG from '../assets/hero-img.jpg'
 import Back from '../assets/chevronback.png'
 import Logo from '../assets/logo.svg'
 
-function AnimePage() {
+function AttackOnTitans() {
   return (
     <>
  {/* Nav Bar Start */}
@@ -29,7 +29,7 @@ function AnimePage() {
   <li className='cursor-pointer hover:bg-gray-800  bg-transparent px-4 py-2 rounded-xl'>Watch Together</li>
 </ul>
 
-<div className='flex justify-between gap-6 font-semi'>
+<div className='flex justify-between gap-6 font-bold'>
   <button className='cursor-pointer'>Sign In</button>
   <button className='bg-red-700 py-4 px-8 rounded-xl text-white cursor-pointer hover:bg-red-300'>Sign Up</button>
 </div>
@@ -50,14 +50,14 @@ function AnimePage() {
       <p>1100+ Episodes</p>
       <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Ongoing</p>
         </div>
-    <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>One Piece</h1>
+    <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>Attack On Titans</h1>
     <div className='lg:flex items-center gap-4 mt-3 mb-4'>
       <p>⭐9.1</p>
       <p className='text-gray-300 flex items-center gap-1'> <img src={Users} alt="users" />96% Popularity</p>
         </div>
 
    
-    <p className='lg:w-[55%] lg:text-2xl'>Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. </p>
+    <p className='lg:w-[55%] lg:text-2xl'>Attack on Titan is a dark fantasy anime series set in a world where humanity is on the brink of extinction due to giant, humanoid creatures called Titans. The story follows Eren Yeager, who vows revenge after a Titan attack destroys his hometown and kills his mother. He joins the Scout Regiment, an elite military group, to fight the Titans and uncover the mysteries surrounding their existence.  </p>
   <div className='flex flex-wrap items-center gap-4 mt-3 mb-4  '>
       
       <p className='bg-red-700 py-1 px-3 rounded-[6px]' >Action</p>
@@ -291,4 +291,4 @@ function AnimePage() {
   )
 }
 
-export default AnimePage
+export default AttackOnTitans

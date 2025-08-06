@@ -1,14 +1,16 @@
 import './App.css'
 import {BrowserRouter, Route, Routes} from 'react-router'
 import Home from './Pages/home'
-import AnimePage from './Pages/anime'
+import OnepiecePage from './Pages/onepiece'
+import AttackOnTitans from './Pages/Attack'
 function App() {
   return (
     <>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='anime' element={<AnimePage />} />
+      <Route path='onepiece' element={<OnepiecePage />} />
+      <Route path='attack' element={<AttackOnTitans />} />
       </Routes>
     </BrowserRouter>
 </>

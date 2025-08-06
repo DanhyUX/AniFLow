@@ -28,7 +28,7 @@ function Home() {
   <li className='cursor-pointer hover:bg-gray-800  bg-transparent px-4 py-2 rounded-xl'>Watch Together</li>
 </ul>
 
-<div className='flex justify-between gap-6 font-semi'>
+<div className='flex justify-between gap-6 font-bold'>
   <button className='cursor-pointer'>Sign In</button>
   <button className='bg-red-700 py-4 px-8 rounded-xl text-white cursor-pointer hover:bg-red-300'>Sign Up</button>
 </div>
@@ -75,9 +75,9 @@ function Home() {
 <div className='mx-6 flex gap-10 flex-wrap'>
 
 <div className='bg-gray-700 lg:w-[40%] h-[380px] rounded-2xl cursor-pointer relative'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+ <a href="attack"> <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
+  </div></a>
 <img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
@@ -96,7 +96,7 @@ function Home() {
   </div>  
   
   <div className='bg-gray-700 lg:w-[30%]  h-[380px] rounded-2xl cursor-pointer relative'>
-  <a href="Anime"><div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+  <a href="onepiece"><div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div></a>
   <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
