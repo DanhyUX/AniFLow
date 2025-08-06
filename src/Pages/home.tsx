@@ -20,7 +20,7 @@ function Home() {
 <div className='w-full flex px-8 py-4 justify-between items-center '>
   <div className='flex items-center'>
 <img src={Logo} alt="Logo" className='w-[86px]'/>
-<p className='text-4xl font-bold'>Ani<span className='text-red-700'>Flow</span></p>
+<p className='text-4xl font-bold hidden lg:block'>Ani<span className='text-red-700'>Flow</span></p>
 </div>
 <ul className='hidden lg:flex justify-between gap-12 text-xl font-semibold'>
  <a href="/"> <li className='cursor-pointer hover:bg-gray-800  bg-transparent px-4 py-2 rounded-xl'>Home</li></a>
