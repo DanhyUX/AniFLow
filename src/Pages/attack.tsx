@@ -17,6 +17,7 @@ function AttackOnTitans() {
   return (
     <>
  {/* Nav Bar Start */}
+ 
 <div className='w-full flex px-8 py-4 justify-between items-center '>
   <div className='flex items-center'>
 <a href="/"><img src={Logo} alt="Logo" className='w-[86px]'/></a>
