@@ -78,7 +78,7 @@ function Home() {
  <a href="attack"> <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div></a>
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform " /> 
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
