@@ -287,9 +287,6 @@ function AnimePage() {
 
   {/* Releated Section Ends */}
 
-
-
-
 </>
   )
 }
