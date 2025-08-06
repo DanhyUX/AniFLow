@@ -53,7 +53,7 @@ function AttackOnTitans() {
         </div>
 
    
-    <p className='lg:w-[55%] lg:text-2xl'>Attack on Titan is a dark fantasy anime series set in a world where humanity is on the brink of extinction due to giant, humanoid creatures called Titans. The story follows Eren Yeager, who vows revenge after a Titan attack destroys his hometown and kills his mother. He joins the Scout Regiment, an elite military group, to fight the Titans and uncover the mysteries surrounding their existence.  </p>
+    <p className='lg:w-[55%] lg:text-2xl'>Attack on Titan is a dark fantasy anime series set in a world where humanity is on the brink of extinction due to giant, humanoid creatures called Titans. The story follows Eren Yeager, who vows revenge after a Titan attack destroys his hometown and kills his mother.   </p>
   <div className='flex flex-wrap items-center gap-4 mt-3 mb-4  '>
       
       <p className='bg-red-700 py-1 px-3 rounded-[6px]' >Action</p>
