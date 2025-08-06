@@ -41,7 +41,7 @@ function AttackOnTitans() {
  <section className='relative w-full h-dvh mb-8'>
   <img src={OnePiece} alt="" className="w-full h-full object-cover opacity-30" />
   <div className='absolute top-[5%] left-[5%] lg:top-[5%] mx-6 bg-red-700 rounded-[100%]'>
-  <img src={Back} alt="" className='py-2 px-2 '/>
+  <a href="/"><img src={Back} alt="" className='py-2 px-2 '/></a>
 
   </div>
   <div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-6'>
