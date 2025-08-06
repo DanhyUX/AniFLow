@@ -40,15 +40,15 @@ function Home() {
 <img src={HeroIMG} alt="" className="w-full h-full object-cover opacity-40" />
 <div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-6'>
   <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>Kimetsu no Yaiba: Demon Slayer</h1>
-  <div className='lg:flex items-center gap-4 mt-3 mb-4'>
+  <div className='flex flex-wrap items-center gap-4 mt-3 mb-4'>
     <p className='bg-red-700 py-1 px-3 rounded-[6px] w-[68px]'>TV-14</p>
     <p>2019</p>
     <p>4 Seasons</p>
-    <p className='bg-red-700 py-1 px-3 rounded-[6px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Shonen</p>
+    <p className='bg-red-700 py-1 px-3 rounded-[6px] w-[68px]'>Action</p>
+    <p className='bg-gray-700 py-1 px-3 rounded-[6px] w-[118px]'>Supernatural</p>
+    <p className='bg-gray-700 py-1 px-3 rounded-[6px] w-[78px]'>Shonen</p>
   </div>
-  <p className='w-[55%] text-2xl'>A young boy becomes a demon slayer to avenge his family and cure his demon sister. Follow Tanjiro's journey through breathtaking battles and emotional storytelling in this critically acclaimed series.</p>
+  <p className='lg:w-[55%] lg:text-2xl'>A young boy becomes a demon slayer to avenge his family and cure his demon sister. Follow Tanjiro's journey through breathtaking battles and emotional storytelling in this critically acclaimed series.</p>
 <div className='mt-4 gap-2 lg:flex  text-[18px] font-bold '>
  <a href="kimetsu"> <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src={Play} alt="play" />Play</button></a>
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Plus} alt="Plus" />My List</button>
