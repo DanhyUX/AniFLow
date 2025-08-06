@@ -1,6 +1,18 @@
 import PlayBlack from '/assets/playblack.png'
 
-function AnimeCard({anime}:{anime: any}) {
+type Anime = {
+    size: string
+    link: string
+    image: string
+    title: string
+    rating: string
+    year: number
+    seasons: number
+    description: string
+    tags: string[]
+}
+
+function AnimeCard({anime}:{anime: Anime}) {
     const {size, link, image, title, rating, year, seasons, description, tags } = anime
     return (
         <div className={`bg-gray-700 lg:w-[${size}] h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden flex flex-col justify-end pb-5`}>
