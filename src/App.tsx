@@ -1,5 +1,6 @@
 import './App.css'
 import HeroIMG from './assets/hero-img.jpg'
+import Logo from './assets/logo.svg'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
     {/* Nav Bar Start */}
 <div className='w-full flex px-8 py-4 justify-between items-center '>
   <div className='flex items-center'>
-<img src="./src/assets/logo.png" alt="Logo" className='w-[86px]'/>
+<img src={Logo} alt="Logo" className='w-[86px]'/>
 <p className='text-4xl font-bold'>Ani<span className='text-red-700'>Flow</span></p>
 </div>
 <ul className='hidden lg:flex justify-between gap-12 text-xl font-semibold'>
