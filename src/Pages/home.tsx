@@ -39,7 +39,7 @@ function Home() {
 {/* Hero Section Start */}
 <section className='relative w-full h-screen mb-8'>
 <img src={HeroIMG} alt="" className="w-full h-full object-cover opacity-40" />
-<div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-6'>
+<div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-2'>
   <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>Kimetsu no Yaiba: Demon Slayer</h1>
   <div className='flex flex-wrap items-center gap-4 mt-3 mb-4'>
     <p className='bg-red-700 py-1 px-3 rounded-[6px] w-[68px]'>TV-14</p>

@@ -111,7 +111,7 @@ function OnepiecePage() {
   <a href="/"><img src={Back} alt="" className='py-2 px-2 '/></a>
 
   </div>
-  <div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-6'>
+  <div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-2'>
   <div className='flex flex-wrap items-center gap-4 mt-3 mb-4'>
       <p className='bg-red-700 py-1 px-3 rounded-[6px] w-[68px]'>TV-14</p>
       <p>1999</p>
