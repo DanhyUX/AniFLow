@@ -33,7 +33,7 @@ function AttackOnTitans() {
 {/* Nav Bar End */}
 
  {/* Hero Section Start */}
- <section className='relative w-full h-dvh mb-8'>
+ <section className='relative w-full h-vh mb-8'>
   <img src={Attack} alt="" className="w-full h-full object-cover opacity-30" />
   <div className='absolute top-[5%] left-[5%] lg:top-[5%] mx-6 bg-red-700 rounded-[100%]'>
   <a href="/"><img src={Back} alt="" className='py-2 px-2 '/></a>
