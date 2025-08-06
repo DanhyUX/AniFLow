@@ -579,6 +579,48 @@ function App() {
 </section>
 {/* Recommended Section Ends */}
 
+{/* Footer Section Start */}
+<section>
+  <div className='flex justify-around py-8'>
+    <div>
+      <h1 className='font-bold'>Navigation</h1>
+      <p className='text-gray-500 cursor-pointer'>Home</p>
+      <p className='text-gray-500 cursor-pointer'>Series</p>
+      <p className='text-gray-500 cursor-pointer'>Movies</p>
+      <p className='text-gray-500 cursor-pointer'>Watch Together</p>
+    </div>
+
+    <div>
+      <h1 className='font-bold'>Genre</h1>
+      <p className='text-gray-500 cursor-pointer'>Action</p>
+      <p className='text-gray-500 cursor-pointer'>Romance</p>
+      <p className='text-gray-500 cursor-pointer'>Comedy</p>
+      <p className='text-gray-500 cursor-pointer'>Thriller</p>
+    </div>
+
+    <div>
+      <h1 className='font-bold'>Support</h1>
+      <p className='text-gray-500 cursor-pointer'>Help Center</p>
+      <p className='text-gray-500 cursor-pointer'>Contact Us</p>
+      <p className='text-gray-500 cursor-pointer'>Terms of Service</p>
+      <p className='text-gray-500 cursor-pointer'>Privacy Policy</p>
+    </div>
+
+    <div>
+      <h1 className='font-bold'>Account</h1>
+      <p className='text-gray-500 cursor-pointer'>My Profile</p>
+      <p className='text-gray-500 cursor-pointer'>My List</p>
+      <p className='text-gray-500 cursor-pointer'>Account Settings</p>
+      <p className='text-gray-500 cursor-pointer'>Sign out</p>
+    </div>
+
+  </div>
+  <hr className='border-1 border-gray-600'/>
+  <div className='text-center text-gray-500 py-4'>
+  <p>© 2025 AniFlow. All rights reserved.</p>
+  </div>
+</section>
+{/* Footer Section End */}
 
 </>
   )
