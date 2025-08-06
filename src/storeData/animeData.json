@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Attacks on Titans",
+      "rating": "TV-14",
+      "year": 2019,
+      "seasons": 4,
+      "description": "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+      "tags": ["Action", "Survival", "Drama"],
+      "image": "/assets/attack.jpg",
+      "link": "attack",
+      "size": "40%"
+    },
+    {
+      "title": "One Piece",
+      "rating": "TV-14",
+      "year": 1999,
+      "seasons": 14,
+      "description": "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+      "tags": ["Action", "Adventure", "Shonen"],
+      "image": "/assets/onepiece.jpg",
+      "link": "onepiece",
+      "size": "30%"
+    },
+    {
+      "title": "Solo Leveling",
+      "rating": "TV-14",
+      "year": 2019,
+      "seasons": 2,
+      "description": "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+      "tags": ["Action", "Adventure", "Shonen"],
+      "image": "/assets/solo.webp",
+      "link": "",
+      "size": "25%"
+    },
+    {
+      "title": "To Be Hero X",
+      "rating": "TV-14",
+      "year": 2025,
+      "seasons": 1,
+      "description": "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+      "tags": ["Action", "Heroes", "Drama"],
+      "image": "/assets/tobehero.webp",
+      "link": "",
+      "size": "25%"
+    },
+    {
+      "title": "The Water Magician",
+      "rating": "TV-14",
+      "year": 2025,
+      "seasons": 1,
+      "description": "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+      "tags": ["Action", "Magic", "Adventure"],
+      "image": "/assets/water.avif",
+      "link": "",
+      "size": "40%"
+    },
+    {
+      "title": "Dragon Ball",
+      "rating": "TV-14",
+      "year": 1986,
+      "seasons": 6,
+      "description": "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+      "tags": ["Action", "Fighting", "Adventure"],
+      "image": "/assets/dbz.webp",
+      "link": "",
+      "size": "30%"
+    }
+  ]

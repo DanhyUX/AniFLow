@@ -1,85 +1,12 @@
-import Attack from '../assets/attack.jpg'
-import Play from '../assets/Play.png'
-import Plus from '../assets/PLus.png'
-import Share from '../assets/share.png'
-import Users from '../assets/users.png'
-import DBZ from '../assets/dbz.webp'
-import Solo from '../assets/solo.webp'
-import ToBeHero from '../assets/tobehero.webp'
-import WaterMagic from '../assets/water.avif'
-import PlayBlack from '../assets/playblack.png'
-import Back from '../assets/chevronback.png'
-import Logo from '../assets/logo.svg'
-import OnePiece from '../assets/onepiece.jpg'
-
-const animeCards = [
-  {
-    title: "Attacks on Titans",
-    rating: "TV-14",
-    year: 2019,
-    seasons: 4,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Survival", "Drama"],
-    image: Attack,
-    link: "attack",
-    size: "45"
-  },
-  {
-    title: "One Piece",
-    rating: "TV-14",
-    year: 1999,
-    seasons: 14,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Adventure", "Shonen"],
-    image: OnePiece,
-    link: "onepiece",
-    size: "30"
-  },
-  {
-    title: "Solo Leveling",
-    rating: "TV-14",
-    year: 2019,
-    seasons: 2,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Adventure", "Shonen"],
-    image: Solo,
-    link: "",
-    size: "25"
-  },
-  {
-    title: "To Be Hero X",
-    rating: "TV-14",
-    year: 2025,
-    seasons: 1,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Heroes", "Drama"],
-    image: ToBeHero,
-    link: "",
-    size: "25"
-  },
-  {
-    title: "The Water Magician",
-    rating: "TV-14",
-    year: 2025,
-    seasons: 1,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Magic", "Adventure"],
-    image: WaterMagic,
-    link: "",
-    size: "45"
-  },
-  {
-    title: "Dragon Ball",
-    rating: "TV-14",
-    year: 1986,
-    seasons: 6,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Fighting", "Adventure"],
-    image: DBZ,
-    link: "",
-    size: "30"
-  }
-];
+import Attack from '/assets/attack.jpg'
+import Play from '/assets/Play.png'
+import Plus from '/assets/PLus.png'
+import Share from '/assets/share.png'
+import Users from '/assets/users.png'
+import PlayBlack from '/assets/playblack.png'
+import Back from '/assets/chevronback.png'
+import Logo from '/assets/logo.svg'
+import animeCards from '../storeData/animeData.json'
 
 function AttackOnTitans() {
   return (

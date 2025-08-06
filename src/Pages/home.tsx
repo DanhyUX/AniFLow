@@ -1,84 +1,16 @@
-import HeroIMG from '../assets/hero-img.jpg'
-import Logo from '../assets/logo.svg'
-import Attack from '../assets/attack.jpg'
-import DBZ from '../assets/dbz.webp'
-import OnePiece from '../assets/onepiece.jpg'
-import Solo from '../assets/solo.webp'
-import ToBeHero from '../assets/tobehero.webp'
-import WaterMagic from '../assets/water.avif'
-import Play from '../assets/Play.png'
-import Plus from '../assets/PLus.png'
-import Info from '../assets/Info.png'
-import PlayBlack from '../assets/playblack.png'
-
-const animeCards = [
-  {
-    title: "Attacks on Titans",
-    rating: "TV-14",
-    year: 2019,
-    seasons: 4,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Survival", "Drama"],
-    image: Attack,
-    link: "attack",
-    size: "45%"
-  },
-  {
-    title: "One Piece",
-    rating: "TV-14",
-    year: 1999,
-    seasons: 14,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Adventure", "Shonen"],
-    image: OnePiece,
-    link: "onepiece",
-    size: "30%"
-  },
-  {
-    title: "Solo Leveling",
-    rating: "TV-14",
-    year: 2019,
-    seasons: 2,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Adventure", "Shonen"],
-    image: Solo,
-    link: "",
-    size: "25%"
-  },
-  {
-    title: "To Be Hero X",
-    rating: "TV-14",
-    year: 2025,
-    seasons: 1,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Heroes", "Drama"],
-    image: ToBeHero,
-    link: "",
-    size: "25%"
-  },
-  {
-    title: "The Water Magician",
-    rating: "TV-14",
-    year: 2025,
-    seasons: 1,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Magic", "Adventure"],
-    image: WaterMagic,
-    link: "",
-    size: "45%"
-  },
-  {
-    title: "Dragon Ball",
-    rating: "TV-14",
-    year: 1986,
-    seasons: 6,
-    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
-    tags: ["Action", "Fighting", "Adventure"],
-    image: DBZ,
-    link: "",
-    size: "30%"
-  }
-];
+import HeroIMG from '/assets/hero-img.jpg'
+import Logo from '/assets/logo.svg'
+import Attack from '/assets/attack.jpg'
+import DBZ from '/assets/dbz.webp'
+import OnePiece from '/assets/onepiece.jpg'
+import Solo from '/assets/solo.webp'
+import ToBeHero from '/assets/tobehero.webp'
+import WaterMagic from '/assets/water.avif'
+import Play from '/assets/Play.png'
+import Plus from '/assets/PLus.png'
+import Info from '/assets/Info.png'
+import PlayBlack from '/assets/playblack.png'
+import animeCards from '../storeData/animeData.json'
 
 function Home() {
   return (
@@ -140,7 +72,7 @@ function Home() {
     <h1 className='text-2xl font-bold'>Most Popular</h1>
     <button className='text-white bg-gray-700 opacity-75 py-4 px-6 rounded-xl mr-3 cursor-pointer flex gap-2 hover:bg-white hover:text-black hover:opacity-100'> View All</button>
   </div>
-  <div className='mx-6 flex gap-12 flex-wrap justify-between'>
+  <div className='mx-6 flex gap-8 flex-wrap justify-between'>
     {animeCards.map(({description, image, link, rating, seasons, tags, title, year, size}) => (
       <div className={`bg-gray-700 lg:w-[${size}] h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden flex flex-col justify-end pb-5`}>
       <a href={link}> 
