@@ -98,7 +98,7 @@ function OnepiecePage() {
 </ul>
 
 <div className='flex justify-between gap-6 font-bold'>
-  <button className='cursor-pointer'>Sign In</button>
+  <button className='cursor-pointer hidden lg:block'>Sign In</button>
   <button className='bg-red-700 py-4 px-8 rounded-xl text-white cursor-pointer hover:bg-red-300'>Sign Up</button>
 </div>
       </div>
