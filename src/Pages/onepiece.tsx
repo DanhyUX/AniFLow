@@ -87,7 +87,7 @@ function OnepiecePage() {
     <option value="text">73 - 96</option>
   </select>
 </div>
- <div className='flex flex-wrap mt-10 gap-3'>
+ <div className='flex flex-wrap mt-10 gap-3 justify-center'>
 <div className='relative cursor-pointer  hover:opacity-80'>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
