@@ -54,7 +54,7 @@ function App() {
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2'> <img src={Plus} alt="Plus" />My List</button>
   <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2'> <img src={Info} alt="Info" />More Info</button>
 </div>
-<div className=" flex h-20 gap-3 absolute lg:left-[55%] lg:top-[130%]">
+<div className=" flex h-20 gap-3 absolute lg:left-[55%] lg:top-[150%]">
   <p className='text-red-700'>●</p>
   <p>●</p>
   <p>●</p>
