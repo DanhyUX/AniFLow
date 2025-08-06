@@ -192,6 +192,7 @@ function App() {
     </div>
     <button className='text-white bg-gray-700 opacity-75 py-4 px-6 rounded-xl mr-3 cursor-pointer flex gap-2 hover:bg-white hover:text-black hover:opacity-100'> View All</button>
   </div>
+
 <div className='flex flex-wrap justify-between mx-6 gap-3'>
   <div className='gap-3 mr-2 lg:w-[240px] flex-row justify-center items-center bg-gray-800 py-4 px-4 rounded-2xl'>
   <div className='flex-row text-center mb-2 item'>
@@ -199,7 +200,7 @@ function App() {
     <p className='text-gray-400'>August 3rd</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={OnePiece} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -213,7 +214,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2' />
+    <img src={Attack} alt="anime-photo" className='mb-2' />
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -235,7 +236,7 @@ function App() {
     <p className='text-gray-400'>August 4th</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={Solo} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -249,7 +250,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 scursor-pointer' >
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={DBZ} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -272,7 +273,7 @@ function App() {
     <p className='text-gray-400'>August 5th</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2' />
+    <img src={WaterMagic} alt="anime-photo" className='mb-2' />
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -286,7 +287,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2' />
+    <img src={ToBeHero}alt="anime-photo" className='mb-2' />
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -308,7 +309,7 @@ function App() {
     <p className='text-gray-400'>August 6th</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={Attack} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -322,7 +323,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={DBZ} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
