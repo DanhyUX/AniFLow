@@ -2,6 +2,11 @@ import './App.css'
 import HeroIMG from './assets/hero-img.jpg'
 import Logo from './assets/logo.svg'
 import Attack from './assets/attack.jpg'
+import DBZ from './assets/dbz.webp'
+import OnePiece from './assets/onepiece.jpg'
+import Solo from './assets/solo.webp'
+import ToBeHero from './assets/tobehero.webp'
+import WaterMagic from './assets/water.avif'
 
 function App() {
   return (
@@ -84,7 +89,7 @@ function App() {
   </div>  
   
   <div className='bg-gray-700 lg:w-[30%]  h-[380px] rounded-2xl cursor-pointer'>
-  <img src="./src/assets/onepiece.jpg" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -102,7 +107,7 @@ function App() {
   </div>  
 
   <div className='bg-gray-700 lg:w-[25%]   h-[380px] rounded-2xl cursor-pointer'>
-  <img src="./src/assets/solo.webp" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -120,7 +125,7 @@ function App() {
   </div>  
 
   <div className=' bg-gray-700 lg:w-[25%]  h-[380px] rounded-2xl cursor-pointer'>
-  <img src="./src/assets/tobehero.webp" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -138,7 +143,7 @@ function App() {
   </div> 
 
   <div className=' bg-gray-700 lg:w-[40%]   h-[380px] rounded-2xl cursor-pointer'>
-  <img src="./src/assets/water.avif" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -156,7 +161,7 @@ function App() {
   </div>  
 
   <div className=' bg-gray-700 lg:w-[30%]   h-[380px] rounded-2xl'>
-  <img src="./src/assets/dbz.webp" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -471,7 +476,7 @@ function App() {
   </div>  
   
 <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/onepiece.jpg" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -489,7 +494,7 @@ function App() {
   </div>  
 
   <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/dbz.webp" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -507,7 +512,7 @@ function App() {
   </div>  
 
   <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/tobehero.webp" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -525,7 +530,7 @@ function App() {
   </div>  
 
   <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/solo.webp" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -543,7 +548,7 @@ function App() {
   </div>  
 
   <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer'>
-<img src="./src/assets/water.avif" alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
   <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
