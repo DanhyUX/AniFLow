@@ -134,7 +134,7 @@ function OnepiecePage() {
       <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Drama</p>
       <p className='bg-gray-700 py-1 px-3 rounded-[6px]'>Comedy</p>
     </div>
-  <div className='mt-4 gap-2 lg:flex  text-[18px] font-bold '>
+  <div className='mt-4 gap-2 lg:flex flex flex-wrap text-[18px] font-bold '>
     <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src={Play} alt="play" />Play</button>
     <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Plus} alt="Plus" />My List</button>
     <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2 hover:opacity-80'> <img src={Share} alt="Info" width={24}/>Share</button>
