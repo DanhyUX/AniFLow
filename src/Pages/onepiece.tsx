@@ -182,12 +182,12 @@ function OnepiecePage() {
   </div>
 <div className='mx-6 flex gap-8.5 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative '>
+<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden '>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-<a href="attack"><img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
+<a href="attack">   <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
   
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -199,11 +199,11 @@ function OnepiecePage() {
     </div>
   </div>  
   
-<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
   <a href="kimetsu">  <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
-<img src={HeroIMG} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={HeroIMG} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Kimetsu No Yaiba</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -215,11 +215,11 @@ function OnepiecePage() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -230,11 +230,11 @@ function OnepiecePage() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -246,11 +246,11 @@ function OnepiecePage() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -262,11 +262,11 @@ function OnepiecePage() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   

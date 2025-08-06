@@ -1,4 +1,4 @@
-import OnePiece from '../assets/hero-img.jpg'
+import kimetsu from '../assets/hero-img.jpg'
 import Play from '../assets/Play.png'
 import Plus from '../assets/PLus.png'
 import Share from '../assets/share.png'
@@ -9,7 +9,7 @@ import Solo from '../assets/solo.webp'
 import ToBeHero from '../assets/tobehero.webp'
 import WaterMagic from '../assets/water.avif'
 import PlayBlack from '../assets/playblack.png'
-import HeroIMG from '../assets/hero-img.jpg'
+import onepiece from '../assets/onepiece.jpg'
 import Back from '../assets/chevronback.png'
 import Logo from '../assets/logo.svg'
 
@@ -39,7 +39,7 @@ function DemonSlayer() {
 
  {/* Hero Section Start */}
  <section className='relative w-full h-dvh mb-8'>
-  <img src={OnePiece} alt="" className="w-full h-full object-cover opacity-30" />
+  <img src={kimetsu} alt="" className="w-full h-full object-cover opacity-30" />
   <div className='absolute top-[5%] left-[5%] lg:top-[5%] mx-6 bg-red-700 rounded-[100%]'>
   <a href="/"><img src={Back} alt="" className='py-2 px-2 '/></a>
 
@@ -93,7 +93,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 1:</span>  I'm Luffy! The Man Who's Gonna Be King of the Pirates!</p>
 </div>
 
@@ -101,7 +101,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'> Episode 2:</span>  Enter the Great Swordsman! Pirate Hunter Roronoa Zoro!</p>
 </div>
 
@@ -109,7 +109,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 3:</span>  Morgan vs. Luffy! Who's the Mysterious Pretty Girl?  </p>
 </div>
 
@@ -117,7 +117,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 4:</span>  Luffy's Past! Enter Red-Haired Shanks!</p>
 </div>
 
@@ -125,7 +125,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 5:</span>  Fear, Mysterious Power! Pirate Clown Captain Buggy!</p>
 </div>
 
@@ -133,7 +133,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 6:</span>  Desperate Situation! Beast Tamer Mohji vs. Luffy!</p>
 </div>
 
@@ -141,7 +141,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 7: </span> Epic Showdown! Swordsman Zoro vs. Acrobat Cabaji!</p>
 </div>
 
@@ -149,7 +149,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 8:</span>  Who Will Win? Showdown Between the True Powers of the Devil!  </p>
 </div>
 
@@ -157,7 +157,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-88 font-bold mt-2'><span className='text-gray-400'>Episode 9:</span> The Honorable Liar? Captain Usopp  </p>
 </div>
 
@@ -165,7 +165,7 @@ function DemonSlayer() {
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={OnePiece} alt="card" className='w-88 rounded-2xl'/>
+  <img src={kimetsu} alt="card" className='w-88 rounded-2xl'/>
   <p className='w-84 font-bold mt-2'><span className='text-gray-400'>Episode 10:</span> The Weirdest Guy Ever! Jango the Hypnotist!</p>
 </div>
 
@@ -183,13 +183,13 @@ function DemonSlayer() {
   </div>
 <div className='mx-6 flex gap-8.5 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative '>
+<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden '>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
- <a href="attack">   <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
+<a href="attack">   <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
   
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Attacks on Titans</p>
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
+ <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
     <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
@@ -200,12 +200,12 @@ function DemonSlayer() {
     </div>
   </div>  
   
-<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+  <a href="onepiece">  <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
-<img src={HeroIMG} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Kimetsu No Yaiba</p>
+<img src={onepiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
+  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
     <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
@@ -216,11 +216,11 @@ function DemonSlayer() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -231,11 +231,11 @@ function DemonSlayer() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -247,11 +247,11 @@ function DemonSlayer() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -263,11 +263,11 @@ function DemonSlayer() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
