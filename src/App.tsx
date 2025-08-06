@@ -2,7 +2,7 @@ import './App.css'
 import {BrowserRouter, Route, Routes} from 'react-router'
 import Home from './Pages/home'
 import OnepiecePage from './Pages/onepiece'
-import AttackOnTitans from './Pages/Attack'
+import AttackOnTitans from './Pages/attack'
 function App() {
   return (
     <>
