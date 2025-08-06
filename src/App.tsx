@@ -345,7 +345,7 @@ function App() {
     <p className='text-gray-400'>August 7th</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={OnePiece} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -359,7 +359,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={Attack} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -374,13 +374,14 @@ function App() {
   </div>
     
   </div>
+
   <div className='gap-3 mr-2 lg:w-[240px] flex-row justify-center items-center bg-gray-800 py-4 px-4 rounded-2xl'>
   <div className='flex-row text-center mb-2 item'>
     <p className='text-xl font-bold'>Friday</p>
     <p className='text-gray-400'>August 8th</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={Solo} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -394,7 +395,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={ToBeHero} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -409,13 +410,14 @@ function App() {
   </div>
     
   </div>
+
   <div className='gap-3 mr-2 lg:w-[240px] flex-row justify-center items-center bg-gray-800 py-4 px-4 rounded-2xl'>
   <div className='flex-row text-center mb-2 item'>
     <p className='text-xl font-bold'>Saturday</p>
     <p className='text-gray-400'>August 9th</p>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={WaterMagic} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
@@ -429,7 +431,7 @@ function App() {
     </div>
   </div>
   <div className='gap-4 flex-row border border-gray-500 rounded-2xl p-2 mb-4 cursor-pointer'>
-    <img src="./src/assets/onepiece.jpg" alt="anime-photo" className='mb-2'/>
+    <img src={ToBeHero} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
