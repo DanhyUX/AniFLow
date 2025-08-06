@@ -1,4 +1,5 @@
 import './App.css'
+import HeroIMG from './assets/hero-img.jpg'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 
 {/* Hero Section Start */}
 <section className='relative w-full h-dvh mb-8'>
-<img src="./src/assets/hero-img.jpg" alt="" className="w-full h-full object-cover opacity-40" />
+<img src={HeroIMG} alt="" className="w-full h-full object-cover opacity-40" />
 <div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-6'>
   <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>Generic Anime Name: The Real Anime</h1>
   <div className='lg:flex items-center gap-4 mt-3 mb-4'>
