@@ -9,9 +9,77 @@ import Solo from '../assets/solo.webp'
 import ToBeHero from '../assets/tobehero.webp'
 import WaterMagic from '../assets/water.avif'
 import PlayBlack from '../assets/playblack.png'
-import HeroIMG from '../assets/hero-img.jpg'
 import Back from '../assets/chevronback.png'
 import Logo from '../assets/logo.svg'
+
+const animeCards = [
+  {
+    title: "Attacks on Titans",
+    rating: "TV-14",
+    year: 2019,
+    seasons: 4,
+    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+    tags: ["Action", "Survival", "Drama"],
+    image: Attack,
+    link: "attack",
+    size: "45"
+  },
+  {
+    title: "One Piece",
+    rating: "TV-14",
+    year: 1999,
+    seasons: 14,
+    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+    tags: ["Action", "Adventure", "Shonen"],
+    image: OnePiece,
+    link: "onepiece",
+    size: "30"
+  },
+  {
+    title: "Solo Leveling",
+    rating: "TV-14",
+    year: 2019,
+    seasons: 2,
+    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+    tags: ["Action", "Adventure", "Shonen"],
+    image: Solo,
+    link: "",
+    size: "25"
+  },
+  {
+    title: "To Be Hero X",
+    rating: "TV-14",
+    year: 2025,
+    seasons: 1,
+    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+    tags: ["Action", "Heroes", "Drama"],
+    image: ToBeHero,
+    link: "",
+    size: "25"
+  },
+  {
+    title: "The Water Magician",
+    rating: "TV-14",
+    year: 2025,
+    seasons: 1,
+    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+    tags: ["Action", "Magic", "Adventure"],
+    image: WaterMagic,
+    link: "",
+    size: "45"
+  },
+  {
+    title: "Dragon Ball",
+    rating: "TV-14",
+    year: 1986,
+    seasons: 6,
+    description: "Humanity fights for survival against giant humanoid titans in this epic tale of war and survival",
+    tags: ["Action", "Fighting", "Adventure"],
+    image: DBZ,
+    link: "",
+    size: "30"
+  }
+];
 
 function OnepiecePage() {
   return (
@@ -180,106 +248,31 @@ function OnepiecePage() {
     <h1 className='text-2xl font-bold'>Related Animes</h1>
     <button className='text-white bg-gray-700 opacity-75 py-4 px-6 rounded-xl mr-3 cursor-pointer flex gap-2 hover:bg-white hover:text-black hover:opacity-100'> View All</button>
   </div>
-<div className='mx-6 flex gap-8.5 flex-wrap'>
-
-<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden '>
-<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-<a href="attack">   <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
-  </div>
-  
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
- <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Attacks on Titans</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2019</p>
-    <p>4 Seasons</p>
-    </div>
-   
-    </div>
-  </div>  
-  
-<div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-  <a href="kimetsu">  <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
-  </div>
-<img src={HeroIMG} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Kimetsu No Yaiba</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2019</p>
-    <p>3 Seasons</p>
-    </div>
-    
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Dragon Ball</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>1986</p>
-    <p>6 Seasons</p>
-    </div>
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>To Be Hero X</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2025</p>
-    <p>1 Seasons</p>
-    </div>
-   
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>Solo Leveling</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2023</p>
-    <p>2 Seasons</p>
-    </div>
-  
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-40%] px-6'><p className='text-xl font-bold'>The Water Magician</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2025</p>
-    <p>1 Seasons</p>
-    </div>
-  
-    </div>
-  </div>  
-
-  
-  
+  <div className='mx-6 flex gap-8 flex-wrap'>
+    {animeCards.map(({image, link, rating, seasons, tags, title, year,}) => (
+      <div className={`bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative group overflow-hidden flex flex-col justify-end pb-5`}>
+      <a href={link}> 
+        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+          <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+        </div>
+      </a>
+      <img src={image} alt="" className="w-full h-full absolute top-0 left-0 object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
+      <div className='relative px-6'>
+        <p className='text-2xl font-bold'>{title}</p>
+    <div className='flex items-center gap-4 mt-3 mb-4'>
+      
+        <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>{rating}</p>
+        <p>{year}</p>
+        <p>{seasons} Seasons</p>
+        </div>
+        <div className='flex gap-1 mt-4'>
+          {tags.map((tag, index) => (
+            <p className={`${index === 0? "bg-red-700" : "bg-gray-600"} py-1 px-3 rounded-[6px]`}>{tag}</p>
+          ))}
+        </div>
+        </div>
+      </div>  
+    ))}
   </div>
 
   
