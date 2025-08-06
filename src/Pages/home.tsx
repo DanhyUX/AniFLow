@@ -74,11 +74,11 @@ function Home() {
   </div>
 <div className='mx-6 flex gap-10 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[40%] h-[380px] rounded-2xl cursor-pointer relative'>
+<div className='bg-gray-700 lg:w-[40%] h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden'>
  <a href="attack"> <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div></a>
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform " /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -95,11 +95,11 @@ function Home() {
     </div>
   </div>  
   
-  <div className='bg-gray-700 lg:w-[30%]  h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[30%]  h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <a href="onepiece"><div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div></a>
-  <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -116,11 +116,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[25%]   h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[25%]   h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform"  /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -137,11 +137,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className=' bg-gray-700 lg:w-[25%]  h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className=' bg-gray-700 lg:w-[25%]  h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -158,11 +158,11 @@ function Home() {
     </div>
   </div> 
 
-  <div className=' bg-gray-700 lg:w-[40%]   h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className=' bg-gray-700 lg:w-[40%]   h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-50%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -179,11 +179,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className=' bg-gray-700 lg:w-[30%]   h-[380px] rounded-2xl cursor-pointer relative'>
+  <div className=' bg-gray-700 lg:w-[30%]   h-[380px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-  <img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+  <img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -524,12 +524,12 @@ function Home() {
   </div>
 <div className='mx-6 flex gap-8.5 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative '>
+<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
    <a href="attack"> <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
   
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -546,11 +546,11 @@ function Home() {
     </div>
   </div>  
   
-<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
   <a href="onepiece">  <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
-<img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -567,11 +567,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -588,11 +588,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -609,11 +609,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   
@@ -630,11 +630,11 @@ function Home() {
     </div>
   </div>  
 
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative'>
+  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
+<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
   <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
 <div className='flex items-center gap-4 mt-3 mb-4'>
   

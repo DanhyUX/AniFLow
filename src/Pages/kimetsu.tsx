@@ -185,7 +185,7 @@ function DemonSlayer() {
 
 <div className='bg-gray-700 lg:w-[15%] h-[250px] rounded-2xl cursor-pointer relative '>
 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+ <a href="attack">   <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
   </div>
   
 <img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl" /> 
