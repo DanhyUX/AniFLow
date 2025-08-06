@@ -490,137 +490,33 @@ function Home() {
     <h1 className='text-2xl font-bold'>Our Recommendation</h1>
     <button className='text-white bg-gray-700 opacity-75 py-4 px-6 rounded-xl mr-3 cursor-pointer flex gap-2 hover:bg-white hover:text-black hover:opacity-100'> View All</button>
   </div>
-<div className='mx-6 flex gap-8.5 flex-wrap'>
 
-<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-   <a href="attack"> <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
-  </div>
-  
-<img src={Attack} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>Attacks on Titans</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2019</p>
-    <p>4 Seasons</p>
-    </div>
-    <p>Humanity fights for survival against giant humanoid titans in this epic tale of war and survival</p>
-    <div className='flex gap-1 mt-4'>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Historical</p>
-    </div>
-    </div>
-  </div>  
-  
-<div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-<div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-  <a href="onepiece">  <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' /></a>
-  </div>
-<img src={OnePiece} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>One Piece</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>1999</p>
-    <p>16 Seasons</p>
-    </div>
-    <p>Humanity fights for survival against giant humanoid titans in this epic tale of war and survival</p>
-    <div className='flex gap-1 mt-4'>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Historical</p>
-    </div>
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={DBZ} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Dragon Ball</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>1986</p>
-    <p>6 Seasons</p>
-    </div>
-    <p>Humanity fights for survival against giant humanoid titans in this epic tale of war and survival</p>
-    <div className='flex gap-1 mt-4'>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Historical</p>
-    </div>
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={ToBeHero} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>To Be Hero X</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2025</p>
-    <p>1 Seasons</p>
-    </div>
-    <p>Humanity fights for survival against giant humanoid titans in this epic tale of war and survival</p>
-    <div className='flex gap-1 mt-4'>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Historical</p>
-    </div>
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={Solo} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-55%] px-6'><p className='text-3xl font-bold'>Solo Leveling</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2023</p>
-    <p>2 Seasons</p>
-    </div>
-    <p>Humanity fights for survival against giant humanoid titans in this epic tale of war and survival</p>
-    <div className='flex gap-1 mt-4'>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Historical</p>
-    </div>
-    </div>
-  </div>  
-
-  <div className='bg-gray-700 lg:w-[15%] h-[500px] rounded-2xl cursor-pointer relative group overflow-hidden'>
-  <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
-    <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
-  </div>
-<img src={WaterMagic} alt="" className="w-full h-full  object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
-  <div className='relative top-[-60%] px-6'><p className='text-3xl font-bold'>The Water Magician</p>
-<div className='flex items-center gap-4 mt-3 mb-4'>
-  
-    <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>TV-14</p>
-    <p>2025</p>
-    <p>1 Seasons</p>
-    </div>
-    <p>Humanity fights for survival against giant humanoid titans in this epic tale of war and survival</p>
-    <div className='flex gap-1 mt-4'>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Action</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Supernatural</p>
-    <p className='bg-gray-700 py-1 px-3 rounded-[6px] text-[12px]'>Historical</p>
-    </div>
-    </div>
-  </div>  
-
-  
-  
+ <div className='mx-6 flex gap-8 flex-wrap'>
+    {animeCards.map(({description, image, link, rating, seasons, tags, title, year,}) => (
+      <div className={`bg-gray-700 lg:w-[15%] h-[480px] rounded-2xl cursor-pointer relative group overflow-hidden flex flex-col justify-end pb-5`}>
+      <a href={link}> 
+        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
+          <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
+        </div>
+      </a>
+      <img src={image} alt="" className="w-full h-full absolute top-0 left-0 object-cover opacity-40 rounded-2xl group-hover:scale-110 transition-transform" /> 
+      <div className='relative px-6'>
+        <p className='text-3xl font-bold'>{title}</p>
+    <div className='flex items-center gap-4 mt-3 mb-4'>
+      
+        <p className='bg-gray-600 py-1 px-3 rounded-[6px] '>{rating}</p>
+        <p>{year}</p>
+        <p>{seasons} Seasons</p>
+        </div>
+        <p>{description}</p>
+        <div className='flex gap-1 mt-4'>
+          {tags.map((tag, index) => (
+            <p className={`${index === 0? "bg-red-700" : "bg-gray-600"} py-1 px-3 rounded-[6px]`}>{tag}</p>
+          ))}
+        </div>
+        </div>
+      </div>  
+    ))}
   </div>
 
   
