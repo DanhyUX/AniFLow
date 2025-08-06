@@ -39,7 +39,7 @@ function App() {
 <section className='relative w-full h-dvh mb-8'>
 <img src={HeroIMG} alt="" className="w-full h-full object-cover opacity-40" />
 <div className='absolute top-[5%] left-[5%] lg:top-[25%] mx-6'>
-  <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>Generic Anime Name: The Real Anime</h1>
+  <h1 className='font-bold lg:text-7xl lg:w-[50%] mb-4 text-6xl'>Kimetsu no Yaiba: Demon Slayer</h1>
   <div className='lg:flex items-center gap-4 mt-3 mb-4'>
     <p className='bg-red-700 py-1 px-3 rounded-[6px] w-[68px]'>TV-14</p>
     <p>2019</p>
@@ -495,7 +495,7 @@ function App() {
   <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center z-10 opacity-0 hover:opacity-100 transition-opacity">
     <img src={PlayBlack} alt="Play" className='py-4 px-4 bg-white rounded-[100%]' />
   </div>
-    <img src={ToBeHero} alt="anime-photo" className='mb-2'/>
+    <img src={HeroIMG} alt="anime-photo" className='mb-2'/>
     <div className='flex-row gap-2'>
      <div className='flex gap-2 justify-between items-center'> 
     <p className='bg-red-700 py-1 px-2 rounded-[6px]'>NEW</p>
