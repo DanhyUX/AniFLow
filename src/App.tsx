@@ -7,6 +7,9 @@ import OnePiece from './assets/onepiece.jpg'
 import Solo from './assets/solo.webp'
 import ToBeHero from './assets/tobehero.webp'
 import WaterMagic from './assets/water.avif'
+import Play from './assets/Play.png'
+import Plus from './assets/PLus.png'
+import Info from './assets/Info.png'
 
 function App() {
   return (
@@ -46,9 +49,9 @@ function App() {
   </div>
   <p className='w-[55%]'>A young boy becomes a demon slayer to avenge his family and cure his demon sister. Follow Tanjiro's journey through breathtaking battles and emotional storytelling in this critically acclaimed series.</p>
 <div className='mt-4 gap-2 lg:flex  text-[18px] font-bold '>
-  <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src="./src/assets/Play.png" alt="play" />Play</button>
-  <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2'> <img src="./src/assets/Plus.png" alt="Plus" />My List</button>
-  <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2'> <img src="./src/assets/Info.png" alt="Info" />More Info</button>
+  <button className='bg-red-700 py-4 px-10 rounded-xl text-white mr-3 cursor-pointer flex gap-2  hover:bg-red-300 mb-2'> <img src={Play} alt="play" />Play</button>
+  <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2'> <img src={Plus} alt="Plus" />My List</button>
+  <button className='bg-white py-4 px-10 text-black rounded-xl mr-3 cursor-pointer flex gap-2 mb-2'> <img src={Info} alt="Info" />More Info</button>
 </div>
 <div className=" flex h-20 gap-3 absolute lg:left-[55%] lg:top-[130%]">
   <p className='text-red-700'>●</p>
