@@ -6,7 +6,7 @@ function Signup() {
     <>
       <div className="absolute top-[5%] left-[5%] lg:top-[5%] mx-6 bg-red-700 rounded-[100%]">
         <a href="/">
-          <img src={Back} alt="" className="py-2 px-§2 " />
+          <img src={Back} alt="" className="py-2 px-2 " />
         </a>
       </div>
 
