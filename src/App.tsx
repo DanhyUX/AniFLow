@@ -5,6 +5,7 @@ import AttackOnTitans from "./Pages/attack";
 import DemonSlayer from "./Pages/kimetsu";
 import Login from "./Pages/login";
 import Signup from "./Pages/signup";
+import Profile from "./Pages/profile"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="kimetsu" element={<DemonSlayer />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
+          <Route path="profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </>
