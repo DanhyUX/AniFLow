@@ -7,7 +7,7 @@ function Profile() {
 
 
       {/* Profile Start */}
-   <div className="my-12 mx-6">
+   <div className="my-12 mx-6 ">
        <div className="flex gap-1 items-center">
            <div className="top-[5%] left-[5%] mx-6 bg-red-700 rounded-[100%] w-[42px]">
                 <a href="/">
