@@ -13,6 +13,7 @@ import PlayBlack from '/assets/playblack.png'
 import animeCards from '../storeData/animeData.json'
 import AnimeCard from '../Components/animeCards'
 
+
 function Home() {
   return (
     <>
@@ -30,8 +31,8 @@ function Home() {
 </ul>
 
 <div className='flex justify-between gap-6 font-bold'>
-  <button className='cursor-pointer hidden lg:block'>Sign In</button>
-  <button className='bg-red-700 py-4 px-8 rounded-xl text-white cursor-pointer hover:bg-red-300'>Sign Up</button>
+ <a href={"/Login"}> <button className='py-4 px-8 rounded-xl text-white cursor-pointer hover:bg-red-700 hidden lg:block'>Sign In</button></a>
+ <a href={"signup"}> <button className='bg-red-700 py-4 px-8 rounded-xl text-white cursor-pointer hover:bg-red-300'>Sign Up</button></a>
 </div>
       </div>
 {/* Nav Bar End */}
